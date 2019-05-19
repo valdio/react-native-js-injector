@@ -1,0 +1,25 @@
+{
+  "name": "react-native-js-injector",
+  "version": "0.0.1",
+  "description": "react-native JS script injector",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdio/react-native-js-injector.git"
+  },
+  "keywords": [
+    "react-native",
+    "webview",
+    "js-script",
+    "mobile"
+  ],
+  "author": "Valdio Veliu <Valdio Veliu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valdio/react-native-js-injector/issues"
+  },
+  "homepage": "https://github.com/valdio/react-native-js-injector#readme"
+}
