@@ -33,4 +33,7 @@ This is done by using the following Embed.ly script, from their docs.
 Just pass this two things to the library and you are all set. The example app is based on this test case.
 And the result! A beautifully rendered embed.
 
+
+![screenshot preview](https://github.com/valdio/react-native-js-injector/blob/master/screenshots/embed.pngs)
+
  
