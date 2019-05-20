@@ -7,7 +7,7 @@ React Native WebView with "super powers". This package is basically a WebView wi
 
 **Caution!** This package can only be used with row HTML content. If a `uri` is passed as the `source` prop this component will return an empty `<View/>`.
 
-**`!Here is also a [Test CASE](https://github.com/valdio/react-native-js-injector/blob/master/TestCase.md)`**
+**!Here is also a [Test CASE](https://github.com/valdio/react-native-js-injector/blob/master/TestCase.md)**
 
 ### Install
 
