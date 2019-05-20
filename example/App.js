@@ -36,9 +36,7 @@ export default class App extends Component {
             source={{html: htmlTemplate}}
           />
 
-          <Text>kjsdhkkjsdjk kjsdh hjsdhkajdshf hlasdkjf hasdhfkh sdhkf</Text>
-          <Text>kjsdhkkjsdjk kjsdh hjsdhkajdshf hlasdkjf hasdhfkh sdhkf</Text>
-          <Text>kjsdhkkjsdjk kjsdh hjsdhkajdshf hlasdkjf hasdhfkh sdhkf</Text>
+          <Text>Test embed</Text>
         </ScrollView>
       </View>
     )
