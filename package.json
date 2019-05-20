@@ -21,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/valdio/react-native-js-injector/issues"
   },
-  "homepage": "https://github.com/valdio/react-native-js-injector#readme"
+  "homepage": "https://github.com/valdio/react-native-js-injector#readme",
+  "dependencies": {
+  }
 }
