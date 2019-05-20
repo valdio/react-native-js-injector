@@ -34,6 +34,6 @@ Just pass this two things to the library and you are all set. The example app is
 And the result! A beautifully rendered embed.
 
 
-![screenshot preview](https://github.com/valdio/react-native-js-injector/blob/master/screenshots/embed.pngs)
+![screenshot preview](https://github.com/valdio/react-native-js-injector/blob/master/screenshots/embed.png)
 
  
