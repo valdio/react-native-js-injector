@@ -27,7 +27,7 @@ yarn add react-native-webview
 react-native link react-native-webview
 ```
 
-If there are any issues check out the [Getting-Started guide](https://github.com/react-native-community/react-native-webview/blob/master/docs/Getting-Started.md).
+If there are any issues check out their [Getting-Started guide](https://github.com/react-native-community/react-native-webview/blob/master/docs/Getting-Started.md).
 
 
 
@@ -87,3 +87,18 @@ injectScript={script2}
 ### Debugging
 In order to remotely debug WebView issues read the following steps.
 [Debugging Info](https://github.com/valdio/react-native-js-injector/blob/master/Debugging.md)
+
+
+### License
+
+```
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```
