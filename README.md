@@ -3,7 +3,8 @@ React Native WebView with "super powers". This package is basically a WebView wi
 
 1. Possibility to inject JS scripts easily.
 2. Browser cookies enabled by default. 
-3. Auto Height `WebView` options, in order to use `WebView`s inside components like `ScrollView`
+3. DOM Storage Enabled 
+4. Auto Height `WebView` options, in order to use `WebView`s inside components like `ScrollView`
 
 **Caution!** This package can only be used with row HTML content. If a `uri` is passed as the `source` prop this component will return an empty `<View/>`.
 
