@@ -81,7 +81,7 @@ injectScript={script1.toString()}
 
 
 
-const script2 = `<script>console.log('worthless script');</script>`
+const script2 = `<script>(console.log('worthless script');)()</script>`
 // usage
 injectScript={script2}
 ``` 
