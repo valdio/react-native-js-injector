@@ -4,7 +4,7 @@ React Native WebView which sets it's height automatically with minimal efforts.
 You can also add custom CSS style or javascript to your webview using below example.
 
 **Disclaimer!** The auto-height webview is based on the following GitHub repository with some extra perks added to it.
-[](https://github.com/scazzy/react-native-webview-autoheight)
+[react-native-webview-autoheight](https://github.com/scazzy/react-native-webview-autoheight)
 
 ## Usage
 
