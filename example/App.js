@@ -1,12 +1,19 @@
 import React, {Component} from 'react'
 import {StyleSheet, Text, ScrollView, View} from 'react-native'
 import {WebViewInjector, INJECTOR_TYPE} from 'react-native-js-injector'
+import {DEVICE} from './device'
 
 const htmlTemplate = `
 <div class="fr-embedly " data-original-embed="<a href='https://youtu.be/t-645fMmuD0' data-card-branding='0' class='embedly-card'></a>" style="height: 370px;">
 \t<a href="https://youtu.be/t-645fMmuD0" data-card-branding="0" class="embedly-card"></a>
 </div>
 `
+
+// const htmlTemplate = `
+// <div class="fr-embedly " data-original-embed="<a href='https://www.instagram.com/p/BxvPrUqi5DB/' data-card-branding='0' class='embedly-card'></a>" style="height: 834px;">
+// \t<a href="https://www.instagram.com/p/BxvPrUqi5DB/" data-card-branding="0" class="embedly-card"></a>
+// </div>
+// `
 
 const script = `<script>
   (function(w, d){
@@ -27,6 +34,9 @@ export default class App extends Component {
     return (<View style={styles.container}>
         <ScrollView>
           <WebViewInjector
+            // defaultHeight={DEVICE.HEIGHT}
+            // minHeight={DEVICE.HEIGHT}
+            // maxHeight={DEVICE.HEIGHT}
             injectScript={script}
             scrollEnabled={false}
             // style={{backgroundColor: 'red'}}
@@ -35,7 +45,6 @@ export default class App extends Component {
             type={INJECTOR_TYPE.AUTO_HEIGHT}
             source={{html: htmlTemplate}}
           />
-
           <Text>Test embed</Text>
         </ScrollView>
       </View>
