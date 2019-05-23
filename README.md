@@ -5,6 +5,8 @@ React Native WebView with "super powers". This package is basically a WebView wi
 2. Browser cookies enabled by default. 
 3. DOM Storage Enabled 
 4. Auto Height `WebView` options, in order to use `WebView`s inside components like `ScrollView`
+5. `scrollEnabled` set to default false
+
 
 **Caution!** This package can only be used with row HTML content. If a `uri` is passed as the `source` prop this component will return an empty `<View/>`.
 
@@ -66,6 +68,9 @@ The props are build to follow the same guidelines as the standard props that `We
 - **`source`** _(Object)_ - JS object containing the raw HTML code. Example: `{html: <div></div>}`
 - **`type`** _(String)_ - A flag specifying if the component should use the auto-height perks or not. INJECTOR_TYPE.DEFAULT || INJECTOR_TYPE.AUTO_HEIGHT. **Not required!**
 - **`injectScript`** _(String)_ - String containing the script that will be executed on the `WebView`. Read the guideline scripts bellow.
+- **`defaultHeight`** _(Number)_ - In case of using INJECTOR_TYPE.AUTO_HEIGHT, use this property to set a default height to the `WebView` content.
+- **`maxHeight`** _(Number)_ - In case of using INJECTOR_TYPE.AUTO_HEIGHT, use this property to set the MAX height the `WebView` can reach.
+- **`minHeight`** _(Number)_ - In case of using INJECTOR_TYPE.AUTO_HEIGHT, use this property to set the MIN height the `WebView` can reach.
 - **`*****`** _(PROPS)_ - The component is build to accept any of the default props that are supported by the standard `WebView`.
 
 ### scripts guidelines
