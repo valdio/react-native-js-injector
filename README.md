@@ -70,7 +70,7 @@ The props are build to follow the same guidelines as the standard props that `We
 - **`injectScript`** _(String)_ - String containing the script that will be executed on the `WebView`. Read the guideline scripts bellow.
 - **`defaultHeight`** _(Number)_ - In case of using INJECTOR_TYPE.AUTO_HEIGHT, use this property to set a default height to the `WebView` content.
 - **`maxHeight`** _(Number)_ - In case of using INJECTOR_TYPE.AUTO_HEIGHT, use this property to set the MAX height the `WebView` can reach.
-- **`minHeight`** _(Number)_ - In case of using INJECTOR_TYPE.AUTO_HEIGHT, use this property to set the MIN height the `WebView` can reach.
+- **`minHeight`** _(Number)_ - In case of using INJECTOR_TYPE.AUTO_HEIGHT, use this property to set the MIN height the `WebView` can have.
 - **`*****`** _(PROPS)_ - The component is build to accept any of the default props that are supported by the standard `WebView`.
 
 ### scripts guidelines
