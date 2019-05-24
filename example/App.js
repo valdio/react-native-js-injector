@@ -34,9 +34,9 @@ export default class App extends Component {
     return (<View style={styles.container}>
         <ScrollView>
           <WebViewInjector
-            // defaultHeight={DEVICE.HEIGHT}
+            defaultHeight={DEVICE.HEIGHT}
             // minHeight={DEVICE.HEIGHT}
-            // maxHeight={DEVICE.HEIGHT}
+            maxHeight={DEVICE.HEIGHT}
             injectScript={script}
             scrollEnabled={false}
             // style={{backgroundColor: 'red'}}
